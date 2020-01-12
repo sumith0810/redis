@@ -1,0 +1,6 @@
+---
+# tasks file for redisserver
+
+# tasks file for redisserver
+ - include_tasks: ubuntu.yml
+   when: ansible_os_family == 'Debian'
